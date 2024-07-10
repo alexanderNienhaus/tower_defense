@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca9b972c74a7d354486ffcf357e60631, type: 3}
+  m_Name: StrongEnemyModelStrategy
+  m_EditorClassIdentifier: 
+  speed: 0.6
+  health: 110
+  carriedMoney: 5
+  damage: 3
+  slowColorMaterial: {r: 0, g: 0.61886764, b: 0.61255264, a: 1}
+  slowColorLight: {r: 0, g: 1, b: 0.9888973, a: 1}
+  slowLightIntensityIncrease: 1
+  toggleInstantKillEnemiesSingleton: {fileID: 11400000, guid: 886a316d75dc9e74bb4e8dcecb2efc4c, type: 2}
+  deathSplatterBigParticleSystemPrefab: {fileID: 563612794181490411, guid: 1dd454bc71b3e0949a655609bf720c9e, type: 3}
+  deathSplatterExtraParticleSystemPrefab: {fileID: 563612794181490411, guid: aa06120761df2324980d2e18f201afeb, type: 3}

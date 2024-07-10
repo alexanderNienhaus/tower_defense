@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 159315cc69428564fabf3a53020b3ef7, type: 3}
+  m_Name: DebuffAttackStrategyUpgraded
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 7799417175566489735, guid: 912ed98d1902ffd4499164e08410637e, type: 3}
+  attackRange: 5
+  attackSpeed: 0.4
+  projectileSpeed: 0
+  rotationSpeed: 0
+  timeTillResetToStandardPosition: 0
+  requiredAttackAngle: 0
+  middleOfScreenHeight: 2
+  aliveEnemiesSingleton: {fileID: 11400000, guid: 24e8e7f4953db1a48a20630cce841690, type: 2}
+  slowPercentage: 60
+  slowDuration: 1.5
+  chargeParticleSystemPrefab: {fileID: 8172608679251075670, guid: e487b094dcc65ca4e82a8c66f3bfa9c4, type: 3}
+  dormentParticleSystemPrefab: {fileID: 861717703051432057, guid: 958eda785e039404d85238ff91292b62, type: 3}

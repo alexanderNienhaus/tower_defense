@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c26f532225c85e42aa2df70290b2541, type: 3}
+  m_Name: STAttackStrategyUpgraded
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 5622907020203036947, guid: 6bcb299cae92b8a4c85cd5ba44969438, type: 3}
+  attackRange: 4
+  attackSpeed: 2.25
+  projectileSpeed: 8
+  rotationSpeed: 10
+  timeTillResetToStandardPosition: 3
+  requiredAttackAngle: 10
+  middleOfScreenHeight: 2
+  aliveEnemiesSingleton: {fileID: 11400000, guid: 24e8e7f4953db1a48a20630cce841690, type: 2}
+  damage: 8
+  flareParticleSystemPrefab: {fileID: 4736917620986618341, guid: 8edde5649f5fef24491785a310701430, type: 3}
+  flarePrefabPositionCorrectionY: 0.1573
+  flarePrefabPositionCorrectionXLeft: 0.0298
+  flarePrefabPositionCorrectionXRight: -0.04
+  projectileYCorrection: 0.25

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 280abff5dc07b564b85be0c14fe443cf, type: 3}
+  m_Name: WeakEnemyModelStrategy
+  m_EditorClassIdentifier: 
+  speed: 1.5
+  health: 20
+  carriedMoney: 2
+  damage: 1
+  slowColorMaterial: {r: 0, g: 0.61960787, b: 0.6117647, a: 1}
+  slowColorLight: {r: 0, g: 1, b: 0.9888973, a: 1}
+  slowLightIntensityIncrease: 1
+  toggleInstantKillEnemiesSingleton: {fileID: 11400000, guid: 886a316d75dc9e74bb4e8dcecb2efc4c, type: 2}
+  particleSystemPrefab: {fileID: 5206525188621508731, guid: 6cef3ede5032e4747acf08166d69218b, type: 3}
